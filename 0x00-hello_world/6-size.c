@@ -2,6 +2,7 @@
 
 /**
  * main -Entry point
+ *Description: size of various types on the computer
  * return: Always 0
  */
 
