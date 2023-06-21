@@ -1,13 +1,12 @@
+#include "main.h"
+
 /**
  * main -Entry
- *
+ * Creating a newline
  * return: Always 0
  */
 
-#include "main.h"
-
-
-int _putchar(char)
+int main(void)
 {
 	_putchar('_');
 	_putchar('p');
@@ -18,6 +17,5 @@ int _putchar(char)
 	_putchar('a');
 	_putchar('r');
 	_putchar('\n');
-
-	return (0);
+	return(0);
 }
