@@ -7,7 +7,7 @@
 #include "main.h"
 
 
-int _putchar(char d)
+int _putchar(char)
 {
 	_putchar('_');
 	_putchar('p');
