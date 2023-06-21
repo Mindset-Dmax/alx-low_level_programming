@@ -4,7 +4,7 @@
  * return: Always 0
  */
 
-#include <main.h>
+#include "main.h"
 
 int main (void)
 {
