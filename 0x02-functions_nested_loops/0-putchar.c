@@ -1,9 +1,8 @@
 #include "main.h"
-
 /**
  * main - Entry point
- * Printing a putchar and a newline
- * return: Always 0
+ * printing a putchar and a newline
+ * Return: Always 0
  */
 int main(void)
 {
