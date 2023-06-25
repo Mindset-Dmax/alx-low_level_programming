@@ -1,38 +1,23 @@
-#include "main.h"
-#include <stdio.h>
-#include <stdlib.h>
-
-int _putchar(char c);
+#ainclude "main.h"
+#include <limits.h>
 
 /**
- * print_number - like a hello world
- *
- * @n: params an integer
- *
- * No return
+ * print_number - Prints an integer
+ * @n: The integer to print
  */
-
-
 void print_number(int n)
 {
+if (n == INT_MIN)
+{
+putchar('-');
+n = 147483648;
+}
 
-	unsigned int n1 = 0;
-
-	if  (n < 0)
-	{
-		n1 = -n;
-		_putchar('-');
-	}
-
-	else
-	{
-		n1 = n;
-	}
-
-	if (n1 / 10)
-	{
-		print_number(n1 / 10);
-	}
-
-	_putchar((n1 % 10) + '0');
+if (n < 0)
+{
+n = -n;
+}
+if (n / 10)
+print_number(n / 10);
+putchar('0' + (n % 10));
 }
